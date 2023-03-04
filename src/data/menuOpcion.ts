@@ -1,33 +1,88 @@
 const menuOpcion = [
+
   {
-    seccionText: "Programación",
+    sectionName: "programming",
+    sectionText: "Programación",
     options: [
       {
-        name: "Group",
+        name: "cakes",
         text: "Tortas estándar",
-        path: "/programacion/group",
+        path: "/programming/cakes",
       },
       {
-        name: "Individual",
-        text: "Tortas estándar",
-        path: "/programacion/Individual",
+        name: "individual",
+        text: "Productos individuales",
+        path: "/programming/individual",
+      },
+      {
+        name: "order",
+        text: "Pedidos (especiales y web)",
+        path: "/programming/order",
+      },
+      {
+        name: "specialMasses",
+        text: "Masas especiales",
+        path: "/programming/specialMasses",
+      },
+      {
+        name: "coolingChamber",
+        text: "Cámara de refrigeración",
+        path: "/programming/coolingChamber",
+      },
+    ],
+  },
+
+  {
+    sectionName: "workflow",
+    sectionText: "Flujo de trabajo",
+    options: [
+      {
+        name: "factoryReception",
+        text: "Recepción en fábrica",
+        path: "/workflow/factoryReception",
+      },
+      {
+        name: "factory outlet",
+        text: "Salida de fábrica",
+        path: "/workflow/factoryOutlet",
+      },
+      {
+        name: "pickupTruckReview",
+        text: "Revisión en camioneta",
+        path: "/workflow/pickupTruckReview",
+      },
+      {
+        name: "dispatch",
+        text: "Despacho",
+        path: "/workflow/dispatch",
+      },
+      {
+        name: "customerDelivery",
+        text: "Entrega al cliente",
+        path: "/workflow/customerDelivery",
       },
     ],
   },
   {
-    seccionText: "Pedidos (especiales y web)",
+    sectionName: "processes",
+    sectionText: "Procesos",
     options: [
       {
-        name: "Group",
-        text: "Tortas estándar",
-        path: "/programacion/group",
+        name: "specialOrders",
+        text: "Pedidos especiales",
+        path: "/processes/specialOrders",
       },
       {
-        name: "Individual",
-        text: "Tortas estándar",
-        path: "/programacion/Individual",
+        name: "surplusrecord",
+        text: "Registro de sobrantes",
+        path: "/processes/surplusrecord",
       },
-    ]
+      {
+        name: "stockReview",
+        text: "Revisión de Stock",
+        path: "/processes/stockReview",
+      }
+    ],
   },
 ];
 

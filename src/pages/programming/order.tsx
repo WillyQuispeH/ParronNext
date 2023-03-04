@@ -1,4 +1,4 @@
-import Order from '@/components/funcional/Order/Order'
+import Order from '@/components/funcional/Order'
 import React from 'react'
 
 const order = () => {
