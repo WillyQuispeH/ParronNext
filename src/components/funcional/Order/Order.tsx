@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import { Column, Row } from "../../layout/Generic/Generic";
-
 import Screen from "@/components/layout/Screen";
 import SubMenu from "@/components/layout/SubMenu";
 import ComboBox from "@/components/ui/ComboBox";
@@ -12,18 +11,6 @@ import Title from "@/components/ui/Title";
 import Header from "@/components/ui/Header";
 
 const Order = () => {
-  const ValorInicial = "0px";
-  const ValorCero = "250px";
-  const [Active, SetActive] = useState(ValorInicial);
-
-  const HanOnclick = () => {
-    if (Active === ValorInicial) {
-      SetActive(ValorCero);
-    } else {
-      SetActive(ValorInicial);
-    }
-  };
-
   const InputDataShape = [
     {
       id: "1",
@@ -31,9 +18,10 @@ const Order = () => {
     },
     {
       id: "1",
-      value: "Opción 1",
+      value: "Opción 2",
     },
   ];
+
   return (
     <Screen>
       <Header />

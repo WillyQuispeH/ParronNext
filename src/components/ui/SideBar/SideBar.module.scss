@@ -1,4 +1,4 @@
-.SideBar{
+.sideBar{
     transition: all 0.4s;
     left: 0;
     position: fixed;
@@ -16,8 +16,8 @@
         width: 100%;
         background-color: #282517;
         color: white;
-        font-size: 20;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: 300;
         height: 40px;
         padding-left: 20px;
     }
@@ -30,7 +30,7 @@
             color: #959595;
             background-color: #474436;
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 300;
             height: 40px;
             cursor: pointer;
 

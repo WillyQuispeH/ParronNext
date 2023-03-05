@@ -6,7 +6,7 @@ import Header from "@/components/ui/Header";
 import SideBar from "@/components/ui/SideBar";
 import Title from "@/components/ui/Title";
 
-const SpecialMasses = () => {
+const SpecialDough = () => {
   return (
     <Screen>
       <Header />
@@ -19,4 +19,4 @@ const SpecialMasses = () => {
   );
 };
 
-export default SpecialMasses;
+export default SpecialDough;

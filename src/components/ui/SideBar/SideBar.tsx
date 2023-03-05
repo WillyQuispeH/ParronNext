@@ -7,7 +7,6 @@ import styles from "./SideBar.module.scss";
 
 const SideBar = () => {
   const router = useRouter();
-
   const { sidebar , setSidebar } = useContext(UIContext);
 
   const HandleClickOption=(text :string)=>{
@@ -15,10 +14,8 @@ const SideBar = () => {
     setSidebar(!sidebar);
   }
   
-
-
   return (
-    <div className={styles.SideBar} style={{ left: sidebar ? "250px" : "0px" }}>
+    <div className={styles.sideBar} style={{ left: sidebar ? "250px" : "0px" }}>
       {menuOpcion.map((item: any, idx: number) => (
         <div key={idx}>
           <h1>{item.sectionText}</h1>

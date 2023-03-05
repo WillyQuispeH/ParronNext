@@ -20,9 +20,9 @@ const menuOpcion = [
         path: "/programming/order",
       },
       {
-        name: "specialMasses",
+        name: "specialDough",
         text: "Masas especiales",
-        path: "/programming/specialMasses",
+        path: "/programming/specialDough",
       },
       {
         name: "coolingChamber",
@@ -42,7 +42,7 @@ const menuOpcion = [
         path: "/workflow/factoryReception",
       },
       {
-        name: "factory outlet",
+        name: "factoryOutlet",
         text: "Salida de fábrica",
         path: "/workflow/factoryOutlet",
       },
